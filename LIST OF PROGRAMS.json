@@ -1,0 +1,107 @@
+{
+    "count": 1212,
+    "next": "https://api.sanctions.io/programs/?page=2",
+    "previous": null,
+    "results": [
+        {
+            "short_name": "26532022",
+            "name": null
+        },
+        {
+            "short_name": "311",
+            "name": null
+        },
+        {
+            "short_name": "561-RELATED",
+            "name": null
+        },
+        {
+            "short_name": "AD",
+            "name": null
+        },
+        {
+            "short_name": "AE",
+            "name": null
+        },
+        {
+            "short_name": "AF",
+            "name": null
+        },
+        {
+            "short_name": "AFG",
+            "name": null
+        },
+        {
+            "short_name": "AG",
+            "name": null
+        },
+        {
+            "short_name": "AI",
+            "name": null
+        },
+        {
+            "short_name": "AID",
+            "name": null
+        },
+        {
+            "short_name": "AL",
+            "name": null
+        },
+        {
+            "short_name": "AL-QAIDA",
+            "name": null
+        },
+        {
+            "short_name": "AM",
+            "name": null
+        },
+        {
+            "short_name": "AN",
+            "name": null
+        },
+        {
+            "short_name": "AO",
+            "name": null
+        },
+        {
+            "short_name": "AR",
+            "name": null
+        },
+        {
+            "short_name": "ARMY",
+            "name": null
+        },
+        {
+            "short_name": "AS",
+            "name": null
+        },
+        {
+            "short_name": "AT",
+            "name": null
+        },
+        {
+            "short_name": "AU",
+            "name": null
+        },
+        {
+            "short_name": "AU-1267/1989/2253",
+            "name": null
+        },
+        {
+            "short_name": "AU-1373",
+            "name": null
+        },
+        {
+            "short_name": "AU-1518",
+            "name": null
+        },
+        {
+            "short_name": "AU-1533",
+            "name": null
+        },
+        {
+            "short_name": "AU-1591",
+            "name": null
+        }
+    ]
+}

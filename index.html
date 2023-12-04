@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sanctions.io API Interface</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sanctions.io API Interface</h1>
+        <form id="apiForm">            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="input-field">
+            
+            <label for="min_score">Min Score:</label>
+            <input type="text" id="min_score" name="min_score" class="input-field">
+            
+            <label for="data_source">Data Source:</label>
+            <select id="data_source" name="data_source" class="input-field">
+                <option value="SDN">SDN</option>
+                <option value="HRJ-EU-NCJT">HRJ-EU-NCJT</option>
+                <option value="HRJ-EU-RESTRICTIVE">HRJ-EU-RESTRICTIVE</option>
+                <option value="HRJ-FR-NCST">HRJ-FR-NCST</option>
+                <option value="HRJ-FR-SRG">HRJ-FR-SRG</option>
+                <option value="HRJ-UK-SRG">HRJ-UK-SRG</option>
+                <option value="HRJ-UN-SCSR">HRJ-UN-SCSR</option>
+                <option value="INTERPOL">INTERPOL</option>
+                <option value="IN-TERRORIST">IN-TERRORIST</option>
+                <option value="FINCEN">FINCEN</option>
+                <option value="FBI">FBI</option>
+                <option value="FATF">FATF</option>
+                <option value="EL">EL</option>
+                <option value="DTC">DTC</option>
+                <option value="DPL">DPL</option>
+                <option value="CNASNU">CNASNU</option>
+                <option value="CFSP">CFSP</option>
+                <option value="CMIC">CMIC</option>
+                <option value="CCMC">CCMC</option>
+                <option value="CAP">CAP</option>
+                <option value="BEL">BEL</option>
+                <option value="AUL">AUL</option>
+                <option value="CANADA-SEMA">CANADA-SEMA</option>
+                <!-- Add more options if needed -->
+            </select>
+            
+            <label for="entity_type">Entity Type:</label>
+            <select id="entity_type" name="entity_type" class="input-field">
+                <option value="individual">Individual</option>
+                <option value="entity">Entity</option>
+                <!-- Add more options if needed -->
+            </select>
+            
+            <label for="country_residence">Country Residence:</label>
+            <select id="country_residence" name="country_residence" class="input-field">
+                <option value="by">Belarus</option>
+                <option value="us">United States</option>
+                <!-- Add more options if needed -->
+            </select>
+            
+            <input type="button" value="Submit" onclick="callAPI()">
+        </form>
+        <div id="response"></div>
+    </div>
+
+    <script>
+        function callAPI() {
+            // var api_key = document.getElementById("api_key").value;
+            var min_score = document.getElementById("min_score").value;
+            var data_source = document.getElementById("data_source").value;
+            var name = document.getElementById("name").value;
+            var entity_type = document.getElementById("entity_type").value;
+            var country_residence = document.getElementById("country_residence").value;
+
+            // Make an HTTP request to your Flask API
+            var xhr = new XMLHttpRequest();
+            var url = `/api_sanctions_io_individual?min_score=${min_score}&data_source=${data_source}&name=${name}&entity_type=${entity_type}&country_residence=${country_residence}`;
+            xhr.open("GET", url, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    document.getElementById("response").innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</body>
+</html>

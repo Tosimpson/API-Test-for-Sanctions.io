@@ -1,0 +1,189 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "confidence_score": 0.994,
+            "name": "Росбанк Публичное Акционерное Общество",
+            "alt_names": [
+                "ROSBANK PJSC"
+            ],
+            "entity_type": "Entity",
+            "address": [
+                "Building 34 Mashi Poryvaevoy Street Moscow"
+            ],
+            "country_residence": [
+                "RU"
+            ],
+            "data_source": {
+                "name": "UK Sanctions List (HM Treasury)",
+                "short_name": "HM TREASURY"
+            },
+            "source_list_url": "https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
+            "start_date": "2023-05-19",
+            "program": [
+                "HMTREASURY-RUS"
+            ],
+            "remarks": "Other information: (UK Sanctions List Ref):RUS1858. Financial sanctions imposed in addition to an asset freeze: Trust services. Date trust services sanctions imposed: 18/05/2023. (UK Statement of Reasons):ROSBANK is an involved person under the Russia (EU Exit) (Sanctions) Regulations 2019 because it is and has been involved in obtaining a benefit from or supporting the Government of Russia by carrying on business in a sector of strategic significance to the Government of Russia, namely the Russian financial services sector. (Website):www.rosbank.ru (Type of entity):Public Joint Stock Company (PJSC)",
+            "additional_information": {
+                "regime": "Russia",
+                "website": "www.rosbank.ru",
+                "alias_type": "Primary name",
+                "last_updated": "19/05/2023",
+                "type_of_entity": "Public Joint Stock Company (PJSC)",
+                "date_designated": "18/05/2023",
+                "non_latin_script_type": "Cyrillic",
+                "uk_sanctions_list_ref": "RUS1858. Financial sanctions imposed in addition to an asset freeze: Trust services. Date trust services sanctions imposed: 18/05/2023.",
+                "uk_statement_of_reasons": "ROSBANK is an involved person under the Russia (EU Exit) (Sanctions) Regulations 2019 because it is and has been involved in obtaining a benefit from or supporting the Government of Russia by carrying on business in a sector of strategic significance to the Government of Russia, namely the Russian financial services sector.",
+                "non_latin_script_language": "Russian"
+            },
+            "si_identifier": "HMTREASURY-RUS-15916",
+            "entity_number": 15916,
+            "data_hash": "rFhItjlwa+fWXiHXAqakszVr23zs7T9rIB9s41bpLWc="
+        },
+        {
+            "confidence_score": 0.994,
+            "name": "PUBLIC JOINT STOCK COMPANY ROSBANK",
+            "alt_names": [
+                "ROSBANK PJSC",
+                "AKB ROSBANK PAO",
+                "AKB ROSBANK OAO",
+                "JOINT STOCK COMMERCIAL BANK ROSBANK",
+                "COMMERCIAL BANK NEZAVISIMOST"
+            ],
+            "entity_type": "Entity",
+            "address": [
+                "34 Mashy Poryvaevoy Street, Moscow, 107078, RU",
+                "PO Box 208, Moscow, 107078, RU"
+            ],
+            "country_residence": [
+                "RU"
+            ],
+            "data_source": {
+                "name": "Specially Designated Nationals (SDN) - Treasury Department",
+                "short_name": "SDN"
+            },
+            "source_list_url": "https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx",
+            "source_information_url": "https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists",
+            "program": [
+                "RUSSIA-EO14024"
+            ],
+            "additional_information": {
+                "isin": "RU000A0HHK26",
+                "tax_id": "7730060164, RU",
+                "website": "https://www.rosbank.ru/",
+                "swiftbic": "RSBNRUMM",
+                "target_type": "Financial Institution",
+                "equity_ticker": "ROSB",
+                "legal_entity_number": "HOXMZG026UQNRK6J0C60, RU",
+                "registration_number": "1027739460737, RU",
+                "organization_established_date": "02 Mar 1993"
+            },
+            "si_identifier": "EUCSLSDN-RUSSIA-36496",
+            "entity_number": 36496,
+            "identifiers": [
+                {
+                    "identifier": "1027739460737",
+                    "type": "registration_number",
+                    "type_family": "fiscal_code",
+                    "country": "RU"
+                },
+                {
+                    "identifier": "7730060164",
+                    "type": "tax_id",
+                    "type_family": "fiscal_code",
+                    "country": "RU"
+                },
+                {
+                    "identifier": "HOXMZG026UQNRK6J0C60",
+                    "type": "legal_entity_number",
+                    "type_family": "fiscal_code",
+                    "country": "RU"
+                },
+                {
+                    "identifier": "https://www.rosbank.ru/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "RU000A0HHK26",
+                    "type": "isin",
+                    "type_family": "business_number"
+                },
+                {
+                    "identifier": "RSBNRUMM",
+                    "type": "swift_bic"
+                }
+            ],
+            "data_hash": "W0Wb4o+E/f21F4a+FlD9Lm8ILh5PMoNYBr9AYyVurHo="
+        },
+        {
+            "confidence_score": 0.91529627,
+            "name": "PAO ROSGOSSTRAKH BANK",
+            "alt_names": [
+                "OPEN JOINT-STOCK COMPANY ROSGOSSTRAKH BANK",
+                "RUSS-BANK"
+            ],
+            "entity_type": "Entity",
+            "address": [
+                "Stroenie 2, 43 Myasnickaya ul., Moscow, 107078, RU"
+            ],
+            "country_residence": [
+                "RU"
+            ],
+            "data_source": {
+                "name": "Specially Designated Nationals (SDN) - Treasury Department",
+                "short_name": "SDN"
+            },
+            "source_list_url": "https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx",
+            "source_information_url": "https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists",
+            "program": [
+                "RUSSIA-EO14024"
+            ],
+            "remarks": "(Linked To: PUBLIC JOINT STOCK COMPANY BANK FINANCIAL CORPORATION OTKRITIE)",
+            "additional_information": {
+                "tax_id": "7718105676, RU",
+                "website": "www.rgsbank.ru",
+                "swiftbic": "RUIDRUMM",
+                "registration_number": "1027739004809, RU"
+            },
+            "si_identifier": "EUCSLSDN-RUSSIA-34504",
+            "entity_number": 34504,
+            "identifiers": [
+                {
+                    "identifier": "7718105676",
+                    "type": "tax_id",
+                    "type_family": "fiscal_code",
+                    "country": "RU"
+                },
+                {
+                    "identifier": "1027739004809",
+                    "type": "registration_number",
+                    "type_family": "fiscal_code",
+                    "country": "RU"
+                },
+                {
+                    "identifier": "www.rgsbank.ru",
+                    "type": "website"
+                },
+                {
+                    "identifier": "RUIDRUMM",
+                    "type": "swift_bic"
+                }
+            ],
+            "data_hash": "hRQFBPuxKfsA63ZmlQA1a7sTGggicNmZcrdrc/x9ggA="
+        }
+    ],
+    "search": {
+        "id": "d514e2eb-4c68-49a1-a14b-8f2b2c19b9e1",
+        "params": {
+            "min_score": "0.85",
+            "data_source": "SDN,HM Treasury",
+            "name": "rosbank",
+            "entity_type": "entity",
+            "country_residence": "ru"
+        },
+        "timestamp": "2023-10-22T07:33:56.457558+00:00",
+        "api_version": "2.2"
+    }
+}

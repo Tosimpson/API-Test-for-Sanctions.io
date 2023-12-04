@@ -1,0 +1,108 @@
+{
+    "count": 50,
+    "next": "https://api.sanctions.io/sources/?page=2",
+    "previous": null,
+    "results": [
+        {
+            "short_name": "AUL",
+            "name": "Australian Sanctions List"
+        },
+        {
+            "short_name": "BEL",
+            "name": "Belgium Sanctions List"
+        },
+        {
+            "short_name": "CANADA-SEMA",
+            "name": "Special Economic Measures Act"
+        },
+        {
+            "short_name": "CAP",
+            "name": "Capta List (CAP) - Treasury Department"
+        },
+        {
+            "short_name": "CCMC",
+            "name": "Non-SDN Communist Military Companies Sanctions List (CCMC) - Treasury Department"
+        },
+        {
+            "short_name": "CFSP",
+            "name": "EU Consolidated List of Sanctions"
+        },
+        {
+            "short_name": "CMIC",
+            "name": "Non-SDN Chinese Military-Industrial Complex Companies List (CMIC) - Treasury Department"
+        },
+        {
+            "short_name": "CNASNU",
+            "name": "Morocco - CNASNU Local List"
+        },
+        {
+            "short_name": "DPL",
+            "name": "Denied Persons List (DPL) - Bureau of Industry and Security"
+        },
+        {
+            "short_name": "DTC",
+            "name": "ITAR Debarred (DTC) - State Department"
+        },
+        {
+            "short_name": "EL",
+            "name": "Entity List (EL) - Bureau of Industry and Security"
+        },
+        {
+            "short_name": "FATF",
+            "name": "Financial Action Task Force"
+        },
+        {
+            "short_name": "FBI",
+            "name": "FBI Most Wanted"
+        },
+        {
+            "short_name": "FINCEN",
+            "name": "Financial Crimes Enforcement Network - 311"
+        },
+        {
+            "short_name": "FR-GELS",
+            "name": "Ministry of Economy, Finance and Recovery France - Asset Freezes"
+        },
+        {
+            "short_name": "FSE",
+            "name": "Foreign Sanctions Evaders (FSE) - Treasury Department"
+        },
+        {
+            "short_name": "HM TREASURY",
+            "name": "UK Sanctions List (HM Treasury)"
+        },
+        {
+            "short_name": "HRJ-EU-NCJT",
+            "name": "EU - List of non-cooperative jurisdictions for tax purposes"
+        },
+        {
+            "short_name": "HRJ-EU-RESTRICTIVE",
+            "name": "EU - Restrictive measures"
+        },
+        {
+            "short_name": "HRJ-FR-NCST",
+            "name": "France - List of noncooperative states and territories (NCSTs)"
+        },
+        {
+            "short_name": "HRJ-FR-SRG",
+            "name": "France - Sanctions Regimes Geographic"
+        },
+        {
+            "short_name": "HRJ-UK-SRG",
+            "name": "UK - Sanctions Regimes Geographic"
+        },
+        {
+            "short_name": "HRJ-UN-SCSR",
+            "name": "UN - United Nations Security Council Sanctions Regimes"
+        },
+        {
+            "short_name": "INTERPOL",
+            "name": "Interpol Red Notices"
+        },
+        {
+            "short_name": "IN-TERRORIST",
+            "name": "India Terrorist Organizations list",
+            "notes": "This source should be searched together with the \"UN\" data source"
+        }
+    ]
+}

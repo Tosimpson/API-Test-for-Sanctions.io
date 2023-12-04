@@ -1,0 +1,3 @@
+curl --location 'https://api.sanctions.io/search/?min_score=0.85&data_source=SDN%2CHM%20Treasury&name=Alexandr%20Grigorievich%20Lukashenko&entity_type=individual&country_residence=by' \
+--header 'Accept: application/json; version=2.2' \
+--header 'Authorization: Bearer API KEY'

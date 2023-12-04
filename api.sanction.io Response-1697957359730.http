@@ -1,0 +1,223 @@
+HTTP/1.1 200 OK
+Date: Sun, 22 Oct 2023 06:46:04 GMT
+Content-Type: application/json
+Content-Length: 9281
+Connection: close
+Allow: GET, HEAD, OPTIONS
+Content-Security-Policy-Report-Only: media-src inline; style-src data 'unsafe-inline' https://stackpath.bootstrapcdn.com/ https://sanctions-static.s3.amazonaws.com/static/ fonts.googleapis.com code.jquery.com; script-src inline https://sanctions-static.s3.amazonaws.com/static/ code.jquery.com google-analytics.com https://google-analytics.com https://*.google-analytics.com/ https://code.jquery.com/ https://js.stripe.com https://sanctions-static.s3.amazonaws.com/ https://ssl.google-analytics.com https://stats.g.doubleclick.net https://www.google.co.in/ https://www.google.com.pk/ https://www.google.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ stats.g.doubleclick.net www.google-analytics.com www.google.com/recaptcha/; default-src inline; frame-src https://docs.google.com *.google.com/recaptcha/ https://hooks.stripe.com https://js.stripe.com https://www.google.com; img-src * data:; connect-src *.google-analytics.com/ *.google.com/ analytics.google.com/ www.google-analytics.com https://ampcid.google.com https://api.stripe.com https://stats.g.doubleclick.net/ https://www.google.com/ads/ga-audiences https://maps.googleapis.com/ https://sanctions-static.s3.amazonaws.com/ https://fonts.gstatic.com/ https://fonts.googleapis.com/ *.helpscout.net/ *.cloudfront.net/ https://api.sanctions.io/; font-src data https://sanctions-static.s3.amazonaws.com/static/ https://fonts.googleapis.com/ https://maps.googleapis.com/ https://stackpath.bootstrapcdn.com/ https://fonts.gstatic.com/ https://sanctions-static.s3.amazonaws.com/ *.helpscout.net/; script-src-attr inline https://sanctions-static.s3.amazonaws.com/static/ https://www.gstatic.com/ https://cdnjs.cloudflare.com/ https://www.google.com/recaptcha/ https://www.google-analytics.com/ https://maps.googleapis.com/ https://ajax.googleapis.com/ *.helpscout.net/ https://api.sanctions.io/; script-src-elem inline https://sanctions-static.s3.amazonaws.com/static/ https://www.gstatic.com/ https://cdnjs.cloudflare.com/ https://www.google.com/recaptcha/ https://www.google-analytics.com/ https://maps.googleapis.com/ https://ajax.googleapis.com/ *.helpscout.net/ https://api.sanctions.io/; report-uri /csp/report/
+Vary: Cookie, Origin
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+X-Frame-Options: DENY
+
+{
+    "count":3,
+    "next":null,
+    "previous":null,
+    "results":[ 
+        {
+            "confidence_score":0.99455072,
+            "name":"Аляксандр Рыгоравіч",
+            "alt_names": [
+                "Alexander Ryhorovich LUKASHENKO",
+                "Alexander Ryhoravich LUKASHENKO",
+                "Alexander Grigorievich LUKASHENKO",
+                "Aleksandr Ryhoravich LUKASHENKO",
+                "Aleksandr Grogorievich LUKASHENKO",
+                "Aleksandr Grigorievich LUKASHENKO",
+                "Aliaksandr Ryhoravich LUKASHENKA",
+                "Aliaksandr Grigorievich LUKASHENKA",
+                "Alexander Ryhorovich LUKASHENKA",
+                "Alexander Ryhoravich LUKASHENKA",
+                "Alexander Grigorievich LUKASHENKA",
+                "Aleksandr Ryhoravich LUKASHENKA",
+                "Aleksandr Grogorievich LUKASHENKA",
+                "Aleksandr Grigorievich LUKASHENKA",
+                "ЛУКАШЭНКА",
+                "Aliaksandr Grigorievich LUKASHENKO",
+                "Aliaksandr Ryhoravich LUKASHENKO",
+                "ЛУКАШЕНКО",
+                "Александр Григорьевич"
+            ],
+            "entity_type":"Individual",
+            "gender":"male",
+            "address": [
+                "Independence Palace Prospekte Pobeditelei Minsk"
+                ],
+                "country_residence": [
+                    "BY"
+                ],
+                "date_of_birth": [
+                    "1954-08-30"
+                ],
+                "year_of_birth": [
+                    1954
+                ],
+                "place_of_birth": [
+                    "Kopys",
+                    "Vitebsk/Viciebsk district"
+                ],
+                "nationality": [
+                    "BY"
+                ],
+                "data_source": {
+                    "name":"UK Sanctions List (HM Treasury)",
+                    "short_name":"HM TREASURY"
+                },
+                "source_list_url":"https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
+                "start_date":"2020-09-29",
+                "program": [
+                    "HMTREASURY-BEL"
+                ],
+                "remarks":"Other information: (UK Sanctions List Ref):BEL0045 and GHR0050. Listed under the Global Human Rights and Belarus sanctions regimes. (UK Statement of Reasons):Alexander Lukashenko is the President of Belarus. He has held near absolute authority in his 26 years in power and maintains close control over the security apparatus of the State. This authority has remained in place since the 9 August 2020 Presidential election and he is ultimately responsible for the violence against protestors and journalists and the Lukashenko regime’s campaign to repress civil society and democratic opposition, and undermine the rule of law, that has followed the disputed election result in Belarus. Lukashenko has not called out violence and has expressed support for security services. Alexander Lukashenko has therefore been responsible for serious violations of human rights, the repression of civil society or democratic opposition in Belarus, or other actions, policies or activities which undermine democracy or the rule of law in Belarus following 9 August 2020, and has been involved in promoting such activities. (Gender):Male",
+                "additional_information": {
+                    "gender":"Male",
+                    "regime": [
+                        "Belarus",
+                        "Global Human Rights"
+                    ],
+                    "position":"President of Belarus",
+                    "alias_type": [ 
+                        "Primary name variation",
+                        "Primary name"
+                    ],
+                    "last_updated":"04/02/2022",
+                    "date_designated": [
+                        "31/12/2020",
+                        "29/09/2020"
+                    ],
+                    "uk_sanctions_list_ref":"BEL0045 and GHR0050. Listed under the Global Human Rights and Belarus sanctions regimes.",
+                    "uk_statement_of_reasons":"Alexander Lukashenko is the President of Belarus. He has held near absolute authority in his 26 years in power and maintains close control over the security apparatus of the State. This authority has remained in place since the 9 August 2020 Presidential election and he is ultimately responsible for the violence against protestors and journalists and the Lukashenko regime’s campaign to repress civil society and democratic opposition, and undermine the rule of law, that has followed the disputed election result in Belarus. Lukashenko has not called out violence and has expressed support for security services. Alexander Lukashenko has therefore been responsible for serious violations of human rights, the repression of civil society or democratic opposition in Belarus, or other actions, policies or activities which undermine democracy or the rule of law in Belarus following 9 August 2020, and has been involved in promoting such activities."
+                },
+                "si_identifier":"HMTREASURY-BEL-13918",
+                "entity_number":13918,
+                "data_hash":"6FErh1SZcMR6COkZiCaqzjC5l5FH85t0He1YK50qM4Y="
+            },
+            {
+                "confidence_score":0.9680892,
+                "name":"LUKASHENKA, Alyaksandr Ryhorovich",
+                "alt_names": [
+                    "LUKASHENKO, Aleksandr Grigorevich",
+                    "LUKASHENKO, Alexandr Grigorievich",
+                    "LUKASHENKO, Alexander Grigoryevich",
+                    "LUKASHENKA, Alyaksandr Hryhoryavich",
+                    "LUKASHENKO, Aleksander Grigoriyevich"
+                ],
+                "entity_type":"Individual",
+                "gender":"male",
+                "address": [
+                    "Official residence of the President of the Republic of Belarus Drozdiy, pr-d Drozdiy, 11, Minsk, BY",
+                    "38 Karl Marx St., Minsk, BY"
+                ],
+                "country_residence": [
+                    "BY"
+                ],
+                "date_of_birth": [
+                    "1954-08-30",
+                    "1954-08-31"
+                ],
+                "year_of_birth": [ 
+                    1954
+                ],
+                "place_of_birth": [
+                    "Kopys, Vitebsk oblast, Belarus"
+                ],
+                "nationality": [
+                    "BY"
+                ],
+                "data_source": {
+                    "name":"Specially Designated Nationals (SDN) - Treasury Department",
+                    "short_name":"SDN"
+                },
+                "source_list_url":"https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx",
+                "source_information_url":"https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists",
+                "program": [
+                    "BELARUS"
+                ],
+                "additional_information": {
+                    "gender":"Male"
+                },
+                "si_identifier":"EUCSLSDN-BELARUS-9760",
+                "entity_number":9760,
+                "data_hash":"E5PQL6S7HM21p8k2QheUrBtsNvKr9GzylPESPtMc+Nw="
+            },
+            {
+                "confidence_score":0.88115668,
+                "name":"Віктар Аляксандравіч",
+                "alt_names": [
+                    "Viktor Aliaksandravich LUKASHENKO",
+                    "Viktor Aleksandrovich LUKASHENKO",
+                    "Виктор Александрович","ЛУКАШЕНКО",
+                    "Viktar Aliaksandravich LUKASHENKO",
+                    "Viktar Aleksandrovich LUKASHENKO",
+                    "Viktor Aliaksandravich LUKASHENKA",
+                    "Viktar Aliaksandravich LUKASHENKA",
+                    "Viktar Aleksandrovich LUKASHENKA",
+                    "Viktar LUKASHENKA",
+                    "Aleksandrovich LUKASHENKA",
+                    "Viktor ALEKSANDROVICH",
+                    "Viktar ALEKSANDROVICH",
+                    "ЛУКАШЭНКА",
+                    "Aleksandrovich LUKASHENKO",
+                    "Viktar LUKASHENKO"
+                ],
+                "entity_type":"Individual",
+                "gender":"male",
+                "date_of_birth": [
+                    "1975-11-28"
+                ],
+                "year_of_birth": [
+                    1975
+                ],
+                "place_of_birth": [
+                    "Mohilev/Mogilev/Mahiliou"
+                ],
+                "nationality": [
+                    "BY"
+                ],
+                "data_source": {
+                    "name":"UK Sanctions List (HM Treasury)",
+                    "short_name":"HM TREASURY"
+                },
+                "source_list_url":"https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
+                "start_date":"2020-09-29",
+                "program": [
+                    "HMTREASURY-BEL"
+                ],
+                "remarks":"Other information: (UK Sanctions List Ref):BEL0047 and GHR0051. Listed under the Belarus and Global Human Rights sanctions regimes. Son of the President. (UK Statement of Reasons):Viktor Lukashenko is the former National Security Adviser to the President of Belarus and a former member of the Security Council of Belarus. In these roles, he oversaw law enforcement and the security services and was therefore responsible for the serious human rights violations perpetrated against protestors and journalists following the Presidential election on 9 August 2020.  Since February 2021, Viktor Lukashenko has been the President of the National Olympic Committee of the Republic of Belarus (NOC). Prior to this, he was the First Vice President of the NOC. The International Olympic Committee has adopted measures against the NOC for not appropriately protecting athletes from reprisals against them for protesting the 9 August 2020 elections and subsequent violent suppression of peaceful protests. Viktor Lukashenko is therefore responsible for supporting the Lukashenko regime in its repression of civil society or democratic opposition or other actions, policies or activities which undermine democracy or the rule of law in Belarus. (Gender):Male",
+                "additional_information": {
+                    "gender":"Male",
+                    "regime": [
+                        "Belarus","Global Human Rights"
+                    ],
+                    "position":"(1) President of the National Olympic Committee of the Republic of Belarus (2) former National Security Advisor to the President",
+                    "alias_type": [
+                        "Primary name variation",
+                        "Primary name"
+                    ],
+                    "last_updated":"13/04/2022",
+                    "date_designated": [
+                        "31/12/2020",
+                        "29/09/2020"
+                    ],
+                    "uk_sanctions_list_ref":"BEL0047 and GHR0051. Listed under the Belarus and Global Human Rights sanctions regimes. Son of the President.",
+                    "uk_statement_of_reasons":"Viktor Lukashenko is the former National Security Adviser to the President of Belarus and a former member of the Security Council of Belarus. In these roles, he oversaw law enforcement and the security services and was therefore responsible for the serious human rights violations perpetrated against protestors and journalists following the Presidential election on 9 August 2020.  Since February 2021, Viktor Lukashenko has been the President of the National Olympic Committee of the Republic of Belarus (NOC). Prior to this, he was the First Vice President of the NOC. The International Olympic Committee has adopted measures against the NOC for not appropriately protecting athletes from reprisals against them for protesting the 9 August 2020 elections and subsequent violent suppression of peaceful protests. Viktor Lukashenko is therefore responsible for supporting the Lukashenko regime in its repression of civil society or democratic opposition or other actions, policies or activities which undermine democracy or the rule of law in Belarus."
+                },
+                "si_identifier":"HMTREASURY-BEL-13919",
+                "entity_number":13919,
+                "data_hash":"FY8zZj2ltNulI1mVDNRtu6vqTgM+aBEApVe4lW2rDHk="
+            }
+        ],
+        "search": {
+            "id":"a05cbf34-e4f5-4825-aa03-727c959f155e",
+            "params": {
+                "min_score":"0.85",
+                "data_source":"SDN,HM Treasury",
+                "name":"Alexandr Grigorievich Lukashenko",
+                "entity_type":"individual",
+                "country_residence":"by"
+            },
+            "timestamp":"2023-10-22T06:46:04.380197+00:00",
+            "api_version":"2.2"
+        }
+    }
